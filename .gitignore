@@ -17,7 +17,7 @@ jobs/**
 #!jobs/**/nextBuildNumber
 
 #exclude only config.xml files in repository subdirectories
-!config.xml
+config.xml
 
 #don't track workspaces (when users build on the master)
 jobs/**/*workspace

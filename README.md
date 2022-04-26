@@ -12,11 +12,11 @@ vagrant ssh
 docker exec -it jenkins-jenkins-1 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
 vérification de la présence de l'image docker
-![verification de la présence de l'image docker](img/jenkins-demo0.png)
+![verification de la présence de l'image docker](images/jenkins-demo0.png)
 
 une fois le "initialAdminPassword" collé, la connexion à Jenkins est possible et on peut configurer le premier utilisateur
 
-![connexion](img/jenkins-demo1.png)
+![connexion](images/jenkins-demo1.png)
 
 Bienvenue dans le tableau de bord !
-![tableau de bord](img/jenkins-demo2.png)
+![tableau de bord](images/jenkins-demo2.png)
